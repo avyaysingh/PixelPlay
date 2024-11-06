@@ -1,0 +1,61 @@
+spring:
+  application:
+    name: stream-backend
+  output:
+    ansi:
+      enabled: always
+  datasource:
+    url: jdbc:mysql://localhost:3306/stream_service
+    username: root
+    password: Avyay@1999
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate.ddl-auto: update
+  servlet:
+    multipart:
+      max-file-size: 1000MB
+      max-request-size: 1000MB
+
+files:
+  video: videos/
+
+file:
+  video:
+    hsl: videos_hsl/
+
+jwt:
+  secret-key: thisisanotherexampleofasecretkeyforspringsecurityjsonwebtokenauthenticationwithuniquecontent
+
+# Actuator configuration
+info:
+  app:
+    description: This application streams the videos, utilizes video transcoding
+    name: stream-backent
+    version: 1.0
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        # base-path: "/admin"
+  info:
+    env:
+      enabled: true
+
+# Logging Configuration
+logging:
+  level:
+    root: INFO
+    com.stream.stream_backend: DEBUG
+    org.springframework: WARN
+    hibernate: ERROR
+  file:
+    name: stream-backend.log
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  path: logs/

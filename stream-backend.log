@@ -1,0 +1,38 @@
+2024-11-04 21:25:30 [restartedMain] INFO  c.s.s.StreamBackendApplication - Starting StreamBackendApplication using Java 17.0.7 with PID 8072 (D:\CodN\WebDev\Projects\stream-backend\target\classes started by shubh in D:\CodN\WebDev\Projects\stream-backend)
+2024-11-04 21:25:30 [restartedMain] DEBUG c.s.s.StreamBackendApplication - Running with Spring Boot v3.2.8, Spring v6.1.11
+2024-11-04 21:25:30 [restartedMain] INFO  c.s.s.StreamBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-04 21:25:41 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-04 21:25:41 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-11-04 21:25:42 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-04 21:25:44 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-04 21:25:45 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.9.Final
+2024-11-04 21:25:45 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-04 21:25:46 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-04 21:25:49 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@656d0dec
+2024-11-04 21:25:49 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-04 21:25:53 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-04 21:25:55 [restartedMain] DEBUG c.s.s.jwt.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2024-11-04 21:25:56 [restartedMain] INFO  c.s.s.services.VideoService - Video DIR : videos/
+2024-11-04 21:25:56 [restartedMain] INFO  c.s.s.services.VideoService - HSL_DIR :videos_hsl/
+2024-11-04 21:25:56 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-04 21:26:02 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-04 21:26:03 [restartedMain] INFO  c.s.s.StreamBackendApplication - Started StreamBackendApplication in 34.699 seconds (process running for 36.714)
+2024-11-04 21:33:02 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-04 21:33:02 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-11-04 21:33:03 [restartedMain] INFO  c.s.s.StreamBackendApplication - Starting StreamBackendApplication using Java 17.0.7 with PID 8072 (D:\CodN\WebDev\Projects\stream-backend\target\classes started by shubh in D:\CodN\WebDev\Projects\stream-backend)
+2024-11-04 21:33:03 [restartedMain] DEBUG c.s.s.StreamBackendApplication - Running with Spring Boot v3.2.8, Spring v6.1.11
+2024-11-04 21:33:03 [restartedMain] INFO  c.s.s.StreamBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-04 21:33:05 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-04 21:33:05 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-11-04 21:33:05 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-04 21:33:06 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-04 21:33:06 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-04 21:33:06 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2024-11-04 21:33:06 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15908a6b
+2024-11-04 21:33:06 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2024-11-04 21:33:06 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-04 21:33:07 [restartedMain] DEBUG c.s.s.jwt.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2024-11-04 21:33:07 [restartedMain] INFO  c.s.s.services.VideoService - Video DIR : videos/
+2024-11-04 21:33:07 [restartedMain] INFO  c.s.s.services.VideoService - HSL_DIR :videos_hsl/
+2024-11-04 21:33:07 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-04 21:33:09 [restartedMain] INFO  c.s.s.StreamBackendApplication - Started StreamBackendApplication in 6.752 seconds (process running for 463.214)

@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  ffmpeg:
+    image: jrottenberg/ffmpeg:latest
+    volumes:
+      - ./videos:/videos
+      - ./videos_hsl:/videos_hsl
+    entrypoint: [ "ffmpeg" ]
+    command: [ "-h" ]
